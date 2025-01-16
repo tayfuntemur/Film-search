@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Film Searc</title>
+        <link rel="stylesheet" href="17.11.2024 ödev.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 >Film Search</h2>
+            
+            <form id="searchForm">
+                <input type="text" id="title" placeholder="Enter movie title..." required>
+                <select id="type">
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>
+                    <option value="episode">Episode</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+    
+            <div id="results" class="movies"></div>
+            <div id="pagination" class="pagination"></div>
+            <div id="details" class="details"></div>
+        </div>
+    
+        <script src="17.11.2024.js"
+            type="text/Javascript"></script>
+    </body>
+
+</html>
